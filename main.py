@@ -1,11 +1,10 @@
 import os
-from api_store import apigateway
+from api_gate import apigate
 
 
 
-def main():
-    apigateway.api_gateway()
+def main(query):
+   p = apigate.api_gate(query)
 
 
-
-main()
+main('brexit')
