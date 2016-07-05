@@ -54,7 +54,7 @@ def get_articles(date,query):
     '''
 
     all_articles = []
-    api = articleAPI(apikey_item1)
+    api = articleAPI(api_key)
 
     for i in range(0,100): #NYT limits pager to first 100 pages. But rarely will you find over 100 pages of results anyway.
 
@@ -77,3 +77,5 @@ def api_item1(query):
         print 'Processing' + str(i) + '...'
         api_item_result =  get_articles(str(i), query)
         api_item_result_all = api_item_result_all + api_item_result
+
+    return api_item_result_all
