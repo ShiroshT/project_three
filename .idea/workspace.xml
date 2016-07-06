@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69412d2c-d306-4653-bb4b-61489b05a8b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_store/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_store/api_item1/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_store/api_item1/api_item1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_store/apigateway.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api_router/cleaner/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api_router/cleaner/api_result_cleaner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_router/apirouter.py" afterPath="$PROJECT_DIR$/api_router/apirouter.py" />
     </list>
     <ignored path="project_three.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +37,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apirouter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apirouter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_router/apirouter.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api_router/cleaner/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_result_cleaner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_router/cleaner/api_result_cleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +103,9 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/api_gate/apigate.py" />
+        <option value="$PROJECT_DIR$/api_router/cleaner/api_result_cleaner.py" />
         <option value="$PROJECT_DIR$/api_router/apirouter.py" />
+        <option value="$PROJECT_DIR$/api_router/cleaner/__init__.py" />
       </list>
     </option>
   </component>
@@ -166,21 +187,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api_store">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="project_three">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api_gate">
+            <PATH_ELEMENT USER_OBJECT="cleaner">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -466,10 +473,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_router/apirouter.py">
+    <entry file="file://$PROJECT_DIR$/api_router/cleaner/api_result_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_router/apirouter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_router/cleaner/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
